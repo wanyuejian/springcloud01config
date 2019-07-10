@@ -1,8 +1,8 @@
 ﻿server:
-  port: 8901
+  port: 8783
 spring:
   application:
-    name: cloud-config
+    name: service-hi-ha
 eureka:
   client:
     serviceUrl:
