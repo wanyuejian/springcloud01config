@@ -1,5 +1,3 @@
-﻿server:
-  port: 8901
-spring:
+﻿spring:
   application:
     name: cloud-config
