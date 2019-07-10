@@ -2,6 +2,10 @@
   application:
     name: cloud-config
 eureka:
+  instance:
+    hostname: cloud-config
   client:
     serviceUrl:
       defaultZone: http://peer2:8001/eureka/,http://peer3:8002/eureka/,http://peer1:8000/eureka/
+    fetch-registry: false
+    register-with-eureka: true
